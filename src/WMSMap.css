@@ -1,0 +1,27 @@
+/* src/WMSMap.css */
+.map {
+  height: 500px;
+  width: 80%; /* Adjust as needed */
+}
+
+/* General styling for all OpenLayers controls */
+.ol-control {
+  right: 0.5em !important;
+  left: auto !important;
+  top: auto !important;
+}
+
+/* Specific styling for zoom controls */
+.ol-zoom {
+  bottom: 0.5em !important;
+}
+
+/* Specific styling for the attribution control */
+.ol-attribution {
+  bottom: 3.5em !important; /* Adjust if there are more controls */
+}
+
+/* Specific styling for the rotate control */
+.ol-rotate {
+  bottom: 6.5em !important; /* Adjust based on other controls */
+}
